@@ -1,0 +1,21 @@
+MOUSE BRAIN scRNA-seq ANALYSIS SUMMARY
+==================================================
+
+Total cells analyzed: 1053
+Total genes: 15655
+Cell types found: 8
+
+BRAIN COMPOSITION:
+  Neurons: 806 (76.5%)
+  Glia:    170 (16.1%)
+  Other:   77 (7.3%)
+
+CELL TYPE BREAKDOWN:
+  Excitatory neurons: 624 cells (59.3%) | top markers: Cttnbp2, Meis2, Gria2
+  Inhibitory neurons: 182 cells (17.3%) | top markers: Dlx6os1, Nrxn3, Dlx1
+  Astrocytes: 68 cells (6.5%) | top markers: Dbi, Aldoc, Vim
+  Pericytes: 68 cells (6.5%) | top markers: Dbi, Rps2, Rps10
+  Oligodendrocytes: 54 cells (5.1%) | top markers: Hmgb2, Mki67, Spc24
+  OPCs: 39 cells (3.7%) | top markers: Neurod1, Nfib, Rmst
+  Endothelial: 9 cells (0.9%) | top markers: Itm2a, Sox18, Pglyrp1
+  Microglia: 9 cells (0.9%) | top markers: Tyrobp, Crybb1, Trem2
