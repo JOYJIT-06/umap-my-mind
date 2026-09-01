@@ -1,0 +1,10 @@
+scanpy
+leidenalg
+igraph
+scrublet
+pyyaml
+scikit-learn
+matplotlib
+pandas
+fpdf2
+xhtml2pdf

@@ -1,0 +1,32 @@
+
+data:
+  raw_h5: "data/neuron_1k_v3_filtered_feature_bc_matrix.h5"
+  raw_tar: "data/neuron_1k_v3_filtered_feature_bc_matrix.tar.gz"
+  raw_mtx_dir: "data/filtered_feature_bc_matrix/"
+  primary_url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/neuron_1k_v3/neuron_1k_v3_filtered_feature_bc_matrix.h5"
+  backup_url: "https://cf.10xgenomics.com/samples/cell-exp/3.0.0/neuron_1k_v3/neuron_1k_v3_filtered_feature_bc_matrix.tar.gz"
+
+qc:
+  mt_prefix: "mt-"
+  min_genes: 200
+  min_cells: 3
+  mt_threshold: 15
+  expected_doublet_rate: 0.06
+
+preprocessing:
+  n_top_genes: 2000
+  scale_max_value: 10
+  target_sum: 10000
+
+clustering:
+  n_pca_comps: 50
+  n_neighbors: 10
+  n_pcs: 40
+  leiden_resolutions: [0.3, 0.5, 0.7, 0.9, 1.1]
+  leiden_flavor: "igraph"
+  leiden_iterations: 2
+
+paths:
+  figures_dir: "figures"
+  tables_dir: "results"
+  processed_h5ad: "data/mouse_brain_processed.h5ad"
