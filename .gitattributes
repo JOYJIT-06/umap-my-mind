@@ -1,0 +1,5 @@
+# Mark generated HTML reports as documentation (excludes from language stats)
+*.html linguist-documentation
+
+# Alternatively, mark specific files/directories as generated or vendored
+results/*.html linguist-generated=true
